@@ -1,5 +1,12 @@
 from calculator import root_polynomial, discriminant
 
+def test_root_polynomial_degree0():
+    """Tests that degree 0 polynomial has roots
+    """
+
+    assert root_polynomial(0, 0, 1) is None
+
+    assert root_polynomial(0, 0, 0) is True
 
 def test_root_polynomial_degree1():
     """Tests that the correct root is found for degree 1
