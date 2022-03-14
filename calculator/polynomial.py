@@ -23,7 +23,7 @@ def root_degree_0(a):
     """
     if a == 0:
         print("All numbers are roots.")
-        return None
+        return True
     else:
         print("There are no roots.")
         return None
