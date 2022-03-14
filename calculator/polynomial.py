@@ -55,7 +55,7 @@ def root_degree_2(a, b, c):
         print("The polynomial has two real roots.")
         # the roots are (-b +- sqrt(delta))/2a
         root_1 = (-b - d**0.5)/(2*a)
-        root_2 = (-b + 1 + d**0.5)/(2*a)
+        root_2 = (-b + d**0.5)/(2*a)
         return root_1, root_2
 
     elif d == 0:
